@@ -33,10 +33,7 @@ cp_r template_path, dest_path
 
 puts "Replacing occurrences of #{template_name} with #{dest_name}"
 files_with_project_name = [
-  'nbproject/project.properties',
-  'nbproject/build-impl.xml',
-  'nbproject/project.xml',
-  'build.xml'
+  'nbproject/project.xml'
 ]
 for file in files_with_project_name
   puts "  in #{dest_path}/#{file}"
