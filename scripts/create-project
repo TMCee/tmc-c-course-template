@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'fileutils'
-# THIS IS STILL THE JAVA VERSION, APPLY CHANGES FOR C VERSION
+
 include FileUtils
 cd File.dirname(File.dirname(__FILE__))
 
