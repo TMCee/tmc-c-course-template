@@ -10,6 +10,7 @@ test: $(SRC_FILES)
 clean:
 	# rm -f test tmc_available_points.txt tmc_test_results.xml valgrind.log
 
+get-points:
 	./test --print-available-points
 
 run: test
