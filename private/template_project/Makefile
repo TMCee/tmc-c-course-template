@@ -15,6 +15,9 @@ clean:
 	$(MAKE) -C $(MAIN_DIR) clean
 	$(MAKE) -C $(TEST_DIR) clean
 
+get-points:
+	$(MAKE) -C $(TEST_DIR) get-points
+
 run-main:
 	$(MAKE) -C $(MAIN_DIR) run
 
